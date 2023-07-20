@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.gorditas {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 10px;
+  background: rgb(230, 220, 220);
+  height: 200px;
+  text-align: center;
+  
+  color: blue;
+  
+  
+
+}
+.gorditas > div {
+  height: 50px;
+  
+  
+}
+
+@media screen and (max-width: 768px) {
+  .gorditas {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+  }
+
+}
